@@ -575,12 +575,7 @@ class Zoninator
 				'ignore_sticky_posts' => true,
 				'post_status' => array( 'publish', 'future' ),
 				'post__not_in' => $zone_post_ids,
-<<<<<<< HEAD
-
-			);
-=======
 			) );
->>>>>>> a4c5276216fc7aa8225fdb738c573cad86f598e7
 
 			if ( $this->_validate_category_filter( $cat ) ) {
 				$args['cat'] = $cat;
